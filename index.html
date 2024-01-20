@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaina Ladies Beauty Parlour</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="albp.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/logo.png" alt="logo" width="100px">
+        <a href="#" class="logo">Aaina Ladies Beauty Parlour</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#booking">Booking</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome to</h3>
+            <h1 class="parlour">Aaina Ladies Beauty Parlour</h1>
+            <h3>A House for <span class="serve" id="multiple-text"></span></h3>
+            <p>Beauty is a state of Mind, be try to be more beautiful and calm.</p>
+        </div>
+        <div class="home-img">
+            <img src="img/home-img.avif" alt="">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+            <div class="about-img">
+                <img src="img/image2.jpeg" alt="image">
+            </div>
+        <div class="about-content">
+            <h2 class="heading">About <span class="parlour">Parlour</span></h2>
+            <h3>A Makeup House</h3>
+            <p>Established in 2015 in the Alok market, Kurtha , we believe we have a responsibility to our clients–to make them look good and feel even better. Your beauty is our passion.</p>
+            <p>Your wellness and health are also extremely important. That’s why we use only the highest-quality products.</p>
+            <p>We encourage you to relax when you come in–sit back and sip a beverage while enjoying relaxing music and a stress-free setting. Our trained professionals will handle all of your beauty and wellness needs during your visit.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- service section -->
+    <section class="services" id="services">
+        <h2 class="heading">Our<span class="parlour">Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <img src="img/hair-cutting.png" alt="">
+                <h3>Hair Care</h3>
+                <ul>
+                    <li>Haircuts & Styling</li>
+                    <li>Perm & Straightening</li>
+                    <li>Conditioning</li> 
+                    <li>Color & Highlights</li>
+                </ul>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <img src="img/nail.png" alt="">
+                <h3>Nail Care</h3>
+                <ul>
+                    <li>Pedicure</li>
+                    <li>Manicure</li> 
+                    <li>Acrylic Nail</li> 
+                </ul>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <img src="img/facial-treatment.png" alt="">
+                <h3>Facial Trreatment</h3>
+                <ul>
+                    <li>Basic Facials</li>
+                    <li>Delux Facials</li>
+                    <li>Moisturising Facials</li> 
+                    <li>Acne Treatments</li>
+                </ul>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <img src="img/waxing.png" alt="">
+                <h3>Waxing</h3>
+                <ul>
+                    <li>Body Waxing</li>
+                    <li>Face Waxing</li>
+                </ul>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <img src="img/makeover.png" alt="">
+                <h3>Makeup Services</h3>
+                <ul>
+                    <li>Event Makeup</li>
+                    <li>Wedding Special</li>
+                </ul>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking" id="booking">
+        <h2 class="heading">Book Your <span class="parlour">Appointment!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box" id="service">
+                <input list="Service" placeholder="Services">
+
+                    <datalist id="Service">
+                    <option value="Hair Care">
+                    <option value="Nail Care">
+                    <option value="Facial Trreatment">
+                    <option value="Waxing">
+                    <option value="Makeup Services">
+                    </datalist>
+                <input list="Sub-service" placeholder="Sub-services">
+
+                    <datalist id="Sub-service">
+
+                    </datalist>
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number">
+                <input type="tel" placeholder="Whatsapp Number">
+            </div>
+            <div class="input-box" class="time">
+                <input type="date">
+                <input type="time">
+            </div>
+            
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="albp.js"></script>
+</body>
+</html>
